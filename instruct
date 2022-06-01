@@ -1,0 +1,12 @@
+git add .  (make files trackable, all files)
+
+ssh-keygen -t rsa -b 4096 -C "trial@gmail.com"
+(selecting encryption type and the email)
+
+cat keyname.pub (to view the key content)
+
+https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+
+If you just want to add ssh-key to ssh-agent, use the below command.
+
+start-ssh-agent.cmd
